@@ -3,9 +3,7 @@
 
 2. Include file on function.php
 
-/**
- * Themeoptions and metabox functions.
- */
+ //Themeoptions and metabox functions.
  
 include_once (get_template_directory().'/inc/theme-metabox-and-options.php');
 
