@@ -3,10 +3,11 @@
 
 2. Include file on function.php
 
+```php
  //Themeoptions and metabox functions.
  
 include_once (get_template_directory().'/inc/theme-metabox-and-options.php');
-
+```
 3. Copy bellow code and paste theme-metabox-and-options.php
 
 
@@ -123,5 +124,3 @@ function marvel_custom_framework_options($options)
 add_filter('cs_customize_options', 'marvel_custom_framework_options');
 
 ```
-
----
